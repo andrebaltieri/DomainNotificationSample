@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balta.Domain", "Balta.Domain\Balta.Domain.csproj", "{572195EC-FE5B-44C3-B5B1-04C704C6ABC1}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Balta.Api", "Balta.Api\Balta.Api.xproj", "{18A57725-2801-456E-B4F7-6E24B5EBA286}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balta.SharedKernel", "Balta.SharedKernel\Balta.SharedKernel.csproj", "{7BB60B7E-D7D4-4C85-BB37-9124EA01039D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balta.Domain.Tests", "Balta.Domain.Tests\Balta.Domain.Tests.csproj", "{FBB2BD29-3BEC-49E0-8153-C6E629396F02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balta.Services", "Balta.Services\Balta.Services.csproj", "{C1E9A9D7-2CFB-4113-AB32-8DBE49C2947B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balta.Data", "Balta.Data\Balta.Data.csproj", "{0FC927D2-7D21-45CD-9FB9-F32E207F3498}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{572195EC-FE5B-44C3-B5B1-04C704C6ABC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{572195EC-FE5B-44C3-B5B1-04C704C6ABC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{572195EC-FE5B-44C3-B5B1-04C704C6ABC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{572195EC-FE5B-44C3-B5B1-04C704C6ABC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18A57725-2801-456E-B4F7-6E24B5EBA286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18A57725-2801-456E-B4F7-6E24B5EBA286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18A57725-2801-456E-B4F7-6E24B5EBA286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18A57725-2801-456E-B4F7-6E24B5EBA286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BB60B7E-D7D4-4C85-BB37-9124EA01039D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BB60B7E-D7D4-4C85-BB37-9124EA01039D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BB60B7E-D7D4-4C85-BB37-9124EA01039D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BB60B7E-D7D4-4C85-BB37-9124EA01039D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBB2BD29-3BEC-49E0-8153-C6E629396F02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBB2BD29-3BEC-49E0-8153-C6E629396F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBB2BD29-3BEC-49E0-8153-C6E629396F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBB2BD29-3BEC-49E0-8153-C6E629396F02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1E9A9D7-2CFB-4113-AB32-8DBE49C2947B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1E9A9D7-2CFB-4113-AB32-8DBE49C2947B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1E9A9D7-2CFB-4113-AB32-8DBE49C2947B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1E9A9D7-2CFB-4113-AB32-8DBE49C2947B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FC927D2-7D21-45CD-9FB9-F32E207F3498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FC927D2-7D21-45CD-9FB9-F32E207F3498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FC927D2-7D21-45CD-9FB9-F32E207F3498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FC927D2-7D21-45CD-9FB9-F32E207F3498}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
